@@ -13,6 +13,27 @@ Ninja - web framework
 Ninja is a full stack web framework for Java.
 Rock solid, fast and super productive.
 
+Spoon
+-----
+
+original compile:
+
+```bash
+mvn clean install
+```
+
+spoon compile:
+
+```bash
+mvn clean install -P spoon
+```
+
+diversify compile:
+
+```bash
+mvn clean install -P diversify-all
+```
+
 Getting started
 ---------------
 - Website with docs: http://www.ninjaframework.org
